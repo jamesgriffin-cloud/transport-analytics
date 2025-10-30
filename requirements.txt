@@ -1,0 +1,31 @@
+pandas>=2.0.0
+requests>=2.31.0
+numpy>=1.24.0
+geopy>=2.3.0
+```
+
+## Step 5: Update .gitignore
+
+Add to your `.gitignore`:
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Project specific
+geocode_cache.json
+*.html
+output/
+*.csv
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
